@@ -1,0 +1,9 @@
+Singleton Design Pattern is a pattern where we want to instantiate our object only one time.
+Steps to achieve SDP
+1. Declare one private static instance Object.
+2. Create one private Constructor
+3. Create one public  get method (with one parameter)
+4. inside method put if object == null {
+  do some action;
+  return object 
+}  
